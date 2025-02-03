@@ -1,0 +1,149 @@
+https://nextjs.org/docs/messages/fast-refresh-reload
+
+berkembang/self development
+bisnis/saas
+pengetahuan coding/developer
+
+tolong jelaskan fill={colors[index % colors.length]} pada kode: <Cell
+                        key={`cell-${index}`}
+                        fill={colors[index % colors.length]}
+                      />, mungkin kamu bisa kasih contoh kasusnya agar saya memahami logikanya
+cx="50%" & cy="50%": Memusatkan diagram di dalam container.
+
+Directives = arahan
+text-gray-700 = text-[#374151]
+text-gray-500 = text-[#6b7280]
+text-gray-900 = #1F2937
+text-blue-500 = #3B82F6
+
+text-red-100 = text-[#fee2e2]
+bg-red-400  = bg-[#ef4444]
+
+bg-grey-100  = bg-[#F3F4F6]
+bg-gray-50  = bg-[#F9FAFB] 
+bg-blue-100 = #EBF8FF
+bg-blue-200 = #BFDBFE
+border-blue-500 = #3B82F6
+bg-blue-50 = #EFF6FF
+
+
+
+
+*** SUMMERY ***
+- menentukan pengaturan dasar utk setiap request yg akan dikirim melalui layanan API(baseQuery)
+- hook adalah fungsi khusus yang memungkinkan Anda untuk "mengaitkan" atau menggunakan fitur tertentu dari React atau library lain di dalam komponen fungsional.
+- kelas flex-1: membuat elemen fleksibel sehingga mengambil sisa ruang yang tersedia dalam kontainer induknya.
+PERTANYAAN
+kita belum bahas tailwind.config.ts
+
+
+
+
+useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component.
+
+Note that useRef() is useful for more than the ref attribute. It’s handy for keeping any mutable value around similar to how you’d use instance fields in classes.
+Berikut adalah terjemahan yang rapi dan siap di-copy ke bahasa Indonesia:
+
+- concat – menggabungkan
+- persisted – disimpan secara permanen
+- make store – buat penyimpanan
+- configure Store – konfigurasikan penyimpanan
+- return – mengembalikan
+- reducer – pengurang
+- middleware – perantara
+- get Default Middleware – dapatkan middleware bawaan
+- serializable Check – pemeriksaan serialisasi
+- ignored Actions – tindakan yang diabaikan
+- FLUSH – hapus
+- REHYDRATE – mengisi ulang
+- PAUSE     – jeda
+- PERSIST   – pertahankan
+- PURGE     – bersihkan
+- REGISTER  – daftarkan
+ "collapsed" (kecil) atau "expanded" (besar).
+
+Expense By Category Summary = Ringkasan Biaya Berdasarkan Kategori
+
+3
+amount             = jumlah
+date               = tanggal
+PurchaseSummary    = ringkasan pembelian
+Expense            = pengeluaran
+change Percentage  = perubahan persentase
+
+total Expenses     = Total Biaya
+expense summary    = ringkasan pengeluaran
+expense Summary Id = Ringkasan Biaya Id
+Sales Summary = ringkasan penjualan
+
+
+**numeral
+-library JavaScript 
+- kegunaan:
+  memformat angka menjadi lebih mudah dibaca
+
+
+netstat -ano | findstr :4696
+taskkill /PID <PID> /F
+
+export type AggregatedData = {
+  [category: string]: AggregatedDataItem;
+}
+
+
+1. 
+  A lot of people say that nothing is impossible
+  banyak orang mengatakan bahwa tak ada yang tak mungkin
+
+2. 
+  what advice do you have ?
+  nasihat apa yang kau punya ?
+
+3.
+  don't rely on social media
+  jangan mengandalkan sosial media
+
+4.  
+  put it down   |   turn it off  | get better 
+  letakkan      |   matikan      | menjadi lebih baik
+
+5.
+  first part of your life
+  bagian pertama dari hidupmu
+
+1.
+  can you be my therapist
+  bisakah kau menjadi terapisku
+
+2.
+  i already am 
+  aku sudah
+
+3. 
+  leave the defences now
+  tinggalakan pertahanan sekarang
+
+4.
+  will be given land and riches beyond your wildest dreams
+  akan diberi tanah dan kekayaan melebihi impian terliarmu
+
+
+5.
+  i will make you governor of all the islands with the protection of my military
+  aku akan menjadikanmu gubernur semua pulau dengan perlindungan mmiliterku
+
+1. 
+  conduct = melakukan  
+  wish    = keinginan 
+  ===================
+  you will be free to conduct any bussiness you wish with no taxes
+  kau akan bebas melakukan bisnis apapun yang kau inginkan tanpa pajak
+
+2. 
+
+  would     = akan 
+  wealthier = lebih kaya 
+  emperor   = kaisar 
+  ===================
+  my offer would make you wealthier then the emperor himself
+  tawaranku akan membuatmu labih kaya daripada kaisar sendiri
