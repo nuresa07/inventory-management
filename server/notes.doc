@@ -1,0 +1,19 @@
+1.skrip seed data adalah
+2.Inisialisasi adalah
+3.entry point adalah
+4. saya tidak paham pada const dataDirectory = path.join(__dirname, "seedData");
+5.kenapa menghapus data dari DB sebelum mengisi ulang DB
+
+
+** CATATAN **
+- untuk mengetes username dan password benar/tidak gunakan perintah seperti ini:
+  psql postgresql://postgres:postgresPass07@localhost:5432/inventorymanagement
+
+-package.json
+"scripts": {
+  "dev": "yarn build && concurrently \"yarn tsc -w\" \"nodemon --exec ts-node src/index.ts\""
+},
+
+"dev": "nodemon --exec ts-node src/index.ts"
+
+
