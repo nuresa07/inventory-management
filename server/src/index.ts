@@ -29,7 +29,7 @@ app.use("/expenses", expenseRoutes)
 
 // SERVER 
 const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3001;
-const server = app.listen(port, '127.0.0.1', () => {
+const server = app.listen(port, "0.0.0.0", () => {
   console.log(`Server running on port: ${port}`);
 });
 
