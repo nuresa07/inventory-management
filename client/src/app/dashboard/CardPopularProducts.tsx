@@ -2,6 +2,7 @@ import { useGetDashboardMetricsQuery } from '@/state/api'
 import React from 'react'
 import { AlertCircle, Loader2, ShoppingBag } from 'lucide-react'
 import Rating from '../(components)/Rating'
+import Image from 'next/image'
 
 
 const CardPopularProducts = () => {
@@ -32,7 +33,12 @@ const CardPopularProducts = () => {
             {dashbordMetrics?.popularProducts.map((product) => (
               <div className='flex items-center justify-between gap-3 px-5 py-7 border-b' key={product.productId}>
                 <div className="flex items-center gap-3">
-                  <div>Image</div>
+                  <Image
+                    src={`https://my-s3-inventorymanagement-system.s3.us-east-2.amazonaws.com/product${Math.floor(Math.random() * 3) + 1}.png`}
+                    alt={product.name}
+                    width={48} height={48}
+                    className='rounded-lg'
+                  />
                   <div className="flex flex-col justify-between gap-1">
                     <div className="font-bold">
                       {product.name}

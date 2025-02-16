@@ -9,6 +9,7 @@ import CreateProductModal from './CreateProductModal'
 import { useDebounce } from "use-debounce";
 // type
 import { ProductFormData } from '@/types'
+import Image from 'next/image'
 
 const Products = () => {
 
@@ -81,7 +82,12 @@ const Products = () => {
               className='border shadow rounded-md p-4 max-w-full w-full mx-auto hover:border-blue-600 bg-gray-900'
             >
               <div className="flex flex-col items-center">
-                <span className=''>Image</span>
+                <Image
+                  src={`https://my-s3-inventorymanagement-system.s3.us-east-2.amazonaws.com/product${Math.floor(Math.random() * 3) + 1}.png`}
+                  alt={product.name}
+                  width={150} height={150}
+                  className='mb-3 rounded-2xl '
+                />
                 <div className='text-lg font-semibold'>{product.name}</div> {/* text-gray-900 */}
                 <p className=''>{product.price.toFixed(2)}</p> {/* text-gray-800 */}
                 <div className="text-sm mt-1"> {/* text-gray-600 */}

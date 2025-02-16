@@ -6,6 +6,7 @@ import { Menu } from 'lucide-react'
 import React from 'react'
 import { SidebarLink } from './SidebarLink'
 import { sidebarLinks } from '@/constants'
+import Image from 'next/image'
 
 const Sidebar = () => {
 
@@ -23,8 +24,13 @@ const Sidebar = () => {
     <div className={sidebarClassNames}>
       {/* TOP LOGO */}
       <div className={`flex gap-3 justify-between md:justify-normal items-center pt-8 ${isSidebarCollapsed ? "px-5" : "px-8"}`}>
-        <div>LOGO</div>
-        <h1 className={`${isSidebarCollapsed ? "hidden" : "block"} font-extrabold text-2xl`}>EDSTOCK</h1>
+        <Image
+          src="https://my-s3-inventorymanagement-system.s3.us-east-2.amazonaws.com/logo.png"
+          alt="ESStock"
+          width={27} height={27}
+          className='rounded w-8'
+        />
+        <h1 className={`${isSidebarCollapsed ? "hidden" : "block"} font-extrabold text-2xl`}>ESSTOCK</h1>
         <button className='md:hidden px-3 py-3 rounded-full bg-[#5a8ef5] hover:bg-[#ade1ff]'
           onClick={toggleSidebar}
         >

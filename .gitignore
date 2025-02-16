@@ -8,3 +8,10 @@ client/.next/
 
 client/.env.local/
 client/.env.production/
+client/notes.txt/
+
+server/notes.doc/
+server/api_testing/dashboard.rest/
+server/api_testing/expenses.rest/
+server/api_testing/products.rest/
+server/api_testing/users.rest/
